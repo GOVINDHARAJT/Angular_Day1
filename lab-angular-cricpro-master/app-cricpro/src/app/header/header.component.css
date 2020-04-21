@@ -1,0 +1,10 @@
+.matchInform {
+	display: grid;
+	grid-template-columns: 7fr 2fr;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin: 30px;
+	list-style: none;
+}
+h1{
+	font-size: 40px;
+}

@@ -1,0 +1,84 @@
+body {
+	display: grid;
+	grid-area: auto;
+	background-image: url("../../assets/background-image1.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.popup {
+    zoom:1.0;
+    position:relative;
+    text-decoration:none;
+}
+.popup span {
+    position:fixed;
+    left:-999em;
+    z-index:999;      
+}
+.popup:hover {visibility:visible}
+.popup:hover span {left:100px;}
+* html .popup span {position:absolute;}
+
+header div {
+	width: 1000px;
+	margin: 30px;
+}
+header div ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	border-top-style: ridge;
+	margin: 0px;
+	height: 35px;
+	background-color: white;
+}
+#two {
+	display: grid;
+	grid-template-columns: 4fr 3fr;
+	text-decoration: none;
+	list-style: none;
+	padding-bottom: 10px;
+	
+}
+
+
+#top {
+	display: grid;
+	grid-template-columns: 5fr 1fr;
+	background-color: rgb(243, 109, 109);
+	text-decoration: none;
+	list-style: none;
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+a {
+
+	text-decoration: none;
+	color: blue;
+	cursor: pointer;
+}
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }
+
+#three {
+	display: grid;
+	grid-template-columns: 8.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	text-decoration: none;
+	list-style: none;
+	padding-bottom: 10px;
+
+}
+#by {
+
+	padding-left: 40px;
+}
+.players {
+	text-decoration: none;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 2fr 7fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
