@@ -44,7 +44,7 @@ var NumbersManipulations = /** @class */ (function () {
             console.log("It is Magic Number");
         }
         else {
-            console.log("It is Magic Number");
+            console.log("It is not Magic Number");
         }
     };
     return NumbersManipulations;
