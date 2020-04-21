@@ -45,7 +45,7 @@ class StringManipulations implements StringManipulationService {
       if (num % 9 == 1) {
         console.log("It is Magic Number");
       } else {
-        console.log("It is Magic Number");
+        console.log("It is not Magic Number");
       }
     }
   }
